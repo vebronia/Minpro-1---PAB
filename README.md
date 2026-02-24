@@ -5,19 +5,19 @@ Aplikasi ini dirancang sebagai platform katalog digital sederhana untuk pengelol
 ---
 
 ## 📝 Deskripsi Aplikasi
-Aplikasi Showroom Mobil ini merupakan aplikasi berbasis Flutter yang berfungsi untuk memudahkan pengguna dalam melihat daftar unit mobil yang tersedia. Fokus utama dari pengembangan aplikasi ini adalah pada implementasi antarmuka pengguna (UI) yang bersih, navigasi yang intuitif, serta manajemen data sederhana (CRUD) untuk pengelolaan stok mobil di dalam sistem.
-
-Tujuan utama dari proyek ini adalah mendemonstrasikan pemahaman mengenai struktur dasar Flutter, penggunaan berbagai macam widget, serta pengelolaan tata letak (layouting) yang responsif.
+Aplikasi Showroom Mobil ini merupakan aplikasi berbasis Flutter yang berfungsi untuk memudahkan pengguna dalam melihat daftar unit mobil yang tersedia di showroom. Fokus utama dari pengembangan aplikasi ini adalah pada implementasi antarmuka pengguna (UI) yang user-friendly, serta manajemen data (CRUD) untuk pengelolaan stok mobil di dalam sistem.
 
 ---
 
 ## 🚀 Fitur Utama
-Aplikasi ini dilengkapi dengan beberapa fitur inti, di antaranya:
+Aplikasi ini dilengkapi dengan beberapa fitur, di antaranya:
 
-* **Dashboard Utama:** Menampilkan ringkasan atau sambutan hangat saat pengguna membuka aplikasi.
-* **Katalog Mobil:** Daftar lengkap unit mobil yang tersedia beserta informasi singkatnya.
-* **Detail Unit:** Halaman khusus untuk melihat spesifikasi lebih mendalam dari setiap mobil yang dipilih.
-* **Manajemen Data (CRUD):** Kemampuan bagi admin/pengguna untuk menambah, mengubah, atau menghapus data mobil dari daftar showroom.
+* **Dashboard Utama/Halaman Home:** Menampilkan ringkasan atau sambutan saat pengguna membuka aplikasi.
+* **Katalog Mobil:** Daftar unit mobil yang tersedia beserta informasi singkatnya.
+* **Tambah Data:** Pengguna dapat memasukkan unit mobil baru ke dalam katalog dengan mengisi form spesifikasi.
+* **Lihat Detail:** Menampilkan informasi lengkap setiap unit mobil tanpa memenuhi layar utama.
+* **Update/Edit Data:** Fitur untuk memperbarui informasi kendaraan (misal: perubahan harga atau stok) jika terjadi kesalahan input atau ingin pembaruan status.
+* **Hapus Data:** Menghapus unit dari katalog jika mobil sudah terjual atau tidak lagi tersedia di showroom.
 * **Navigasi Antar Halaman:** Perpindahan layar yang mulus untuk memberikan pengalaman pengguna yang baik.
 
 ---
@@ -43,4 +43,5 @@ Dalam membangun aplikasi ini, saya memanfaatkan berbagai macam widget bawaan Flu
 2. **Clone Repository:**
    ```bash
    git clone [https://github.com/LuthfiDffa/Minpro-1---PAB.git](https://github.com/LuthfiDffa/Minpro-1---PAB.git)
+
 
