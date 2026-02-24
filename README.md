@@ -23,25 +23,20 @@ Aplikasi ini dilengkapi dengan beberapa fitur, di antaranya:
 ---
 
 ## 🧱 Widget yang Digunakan
-Dalam membangun aplikasi ini, saya memanfaatkan berbagai macam widget bawaan Flutter untuk menyusun tampilan yang dinamis:
+Dalam membangun aplikasi ini, saya memanfaatkan berbagai macam widget bawaan Flutter:
 
-1.  **Stateless & Stateful Widget:** Sebagai fondasi utama dalam mengatur siklus hidup (lifecycle) dan perubahan tampilan pada aplikasi.
-2.  **Scaffold:** Digunakan sebagai struktur dasar halaman (menyediakan area untuk AppBar, Body, dan FloatingActionButton).
-3.  **ListView & ListTile:** Untuk menampilkan daftar mobil secara vertikal agar rapi dan mudah di-scroll.
-4.  **TextField & Form:** Digunakan pada halaman input data untuk menangkap teks dari pengguna saat menambah atau mengedit unit.
-5.  **Column & Row:** Widget layouting utama untuk menyusun elemen secara vertikal maupun horizontal.
-6.  **Container & Card:** Memberikan dekorasi, margin, padding, serta efek bayangan (elevation) agar tampilan setiap item mobil terlihat modern.
-7.  **ElevatedButton & FloatingActionButton:** Sebagai pemicu aksi (tombol) untuk navigasi atau menyimpan data.
-8.  **Image.asset / Image.network:** Untuk menampilkan visualisasi unit mobil agar katalog terlihat lebih menarik.
-9.  **Navigator:** Mengatur perpindahan antar halaman (push/pop) di dalam aplikasi.
+1.  **Stateless & Stateful Widget:** Sebagai kerangka utama dalam mengatur logika tampilan yang statis maupun yang dapat berubah (dinamis).
+2.  **Scaffold:** Struktur dasar halaman yang menyediakan area untuk AppBar, Body, dan navigasi.
+3.  **ListView & ListTile:** Untuk menampilkan daftar mobil dalam bentuk list yang bisa discroll.
+4.  **TextField & Form:** Komponen utama untuk menginput teks dari pengguna saat menambah atau mengedit unit.
+5.  **Column & Row:** Digunakan untuk menyusun elemen secara vertikal dan horizontal agar tata letak terlihat proporsional.
+6.  **Container & Card:** Memberikan dekorasi, *padding*, serta efek bayangan (*elevation*) agar tampilan setiap item mobil terlihat modern dan terpisah dengan jelas.
+7.  **ElevatedButton & FloatingActionButton:** Tombol aksi untuk memicu penyimpanan data atau berpindah ke halaman tambah data.
+8.  **Navigator (Push/Pop):** Mengatur alur perpindahan antar layar di dalam aplikasi.
+9.  **AlertDialog / SnackBar:** (Opsional) Digunakan untuk memberikan konfirmasi saat data berhasil disimpan atau dihapus.
 
 ---
 
-### 🛠 Cara Menjalankan Proyek
 
-1. **Persiapan:** Pastikan Flutter SDK sudah terinstall di perangkat Anda.
-2. **Clone Repository:**
-   ```bash
-   git clone [https://github.com/LuthfiDffa/Minpro-1---PAB.git](https://github.com/LuthfiDffa/Minpro-1---PAB.git)
 
 
